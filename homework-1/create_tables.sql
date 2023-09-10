@@ -9,7 +9,7 @@ CREATE TABLE employees
 	notes text
 );
 
-SELECT * FROM employees
+SELECT * FROM employees;
 
 CREATE TABLE customers
 (
@@ -18,7 +18,7 @@ CREATE TABLE customers
 	contact_name char(25)
 );
 
-SELECT * FROM customers
+SELECT * FROM customers;
 
 CREATE TABLE orders
 (
@@ -29,4 +29,4 @@ CREATE TABLE orders
 	ship_city char(25)
 );
 
-SELECT * FROM orders
+SELECT * FROM orders;
